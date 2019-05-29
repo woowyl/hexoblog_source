@@ -1,45 +1,19 @@
-#Hexo-Theme-Huxblog
+# 博客部署指南
 
-> Ported Theme of [Hux Blog](https://github.com/Huxpro/huxpro.github.io), Thank [Huxpro](https://github.com/Huxpro) for designing such a flawless theme.
+1. 这个仓库是博客的源码，真正博客展示的内容在[woowyl.github.io](https://github.com/woowyl/woowyl.github.io) 
 
-###[Demo &rarr;](http://kaijun.rocks/hexo-theme-huxblog/)
+2. [woowyl.github.io](https://github.com/woowyl/woowyl.github.io) 内容是靠本仓库的代码通过hexo生成，并推送到以上仓库
 
+3. 生成步骤
+   1. 下载本项目到本地
+   2. cd project_fold
+   3. npm install
+   4. 
+      ``` js
+      hexo new post POST_NAME  //也可在 /source/_posts/ 目录下直接新建
 
-![](http://huangxuan.me/img/blog-desktop.jpg)
-
-## Usage
-
-I didn't publish it as a single theme folder because a few of the pages are added and modified manually, so you should manually create some extra folders in `source` for the new pages and modify the `_config.yml` if you only have the single theme folder.
-
-So i just pushed the whole hexo project for your convenience, all pre settings and boilerplates are included, have a look and go ahead customizing your own blog!
-
-##### 1.Init
-
-```
-git clone https://github.com/Kaijun/hexo-theme-huxblog.git
-cd hexo-theme-huxblog
-npm install
-```
-
-##### 2.Modify
-Modify `_config.yml` file with your own info.
-Especially the section:
-
-```
-deploy:
-  type: git
-  repo: https://github.com/Kaijun/hexo-theme-huxblog
-  branch: gh-pages
-```
-Replace with your own repo!
-
-##### 3.Writting/Serve/Deploy
-
-```
-hexo new post IMAPOST
-hexo serve // run hexo in local environment
-hexo clean && hexo deploy // hexo will push the static files automatically into the specific branch(gh-pages) of your repo!
-```
-
-##### 4.Enjoy! 
-Please [**Star**](https://github.com/kaijun/hexo-theme-huxblog/stargazers) this Project if you like it! [**Following**](https://github.com/Kaijun) would also be appreciated!
+      hexo serve // run hexo in local environment
+      
+      hexo clean && hexo deploy // hexo will push the static files automatically into the specific branch(gh-pages) of your repo!
+      ```
+> Ported Theme of [Hux Blog](https://github.com/Huxpro/huxpro.github.io), Thank [Huxpro](https://github.com/Huxpro) for designing such a flawless theme. Thanks [kaijun](http://kaijun.rocks) for create this hexo project.
