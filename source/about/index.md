@@ -7,5 +7,9 @@ header-img: "img/about-bg.jpg"
 comments: true
 ---
 
-物来顺应,未来不迎,当时不杂,既过不恋.
+物来顺应,  
+未来不迎,
+当时不杂,
+既过不恋.
+
 我是王远亮 ^_^。

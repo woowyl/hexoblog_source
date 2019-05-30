@@ -6,9 +6,10 @@
 
 3. 生成步骤
    1. 下载本项目到本地
-   2. cd project_fold
+   `git clone git@github.com:woowyl/hexoblog_source.git`
+   2. cd hexoblog_source
    3. npm install
-   4. 
+   4. 新建并发布文章到github page:
       ``` js
       hexo new post POST_NAME  //也可在 /source/_posts/ 目录下直接新建
 
