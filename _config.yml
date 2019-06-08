@@ -58,7 +58,7 @@ ga_domain: wangyuanliang.com
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Since all of life is an act of letting go, why not taking a moment to say goodbye!"
+sidebar-about-description: "All of life is an act of letting go，but what hurts the most is not taking a moment to say goodbye."
 sidebar-avatar: img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
